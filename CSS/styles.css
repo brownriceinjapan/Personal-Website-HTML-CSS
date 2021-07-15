@@ -1,0 +1,190 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+/*************  text align center in the parent will center everything
+      in that parent container, unless it has a width*********/
+
+a {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px 10px;
+  text-decoration: none;
+}
+
+/***the browser automatically makes all anchor tags underlined****/
+
+
+a:hover {
+        color: #EAF6F6;
+}
+
+
+
+footer {
+        padding: 10px;
+        background-color: #66BFBF;
+        color: #11999E;
+      }
+
+
+
+
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+/**** 16px = 100%=1em; using a percentage or em causes the font size to change
+ when a user changes the font size in their settings (like someone who is
+ visually impaired making all the font size bigger); root em should be used because
+ it is not affected by upstream changes in font like em and percentages are *****/
+
+/************* besides using text align center, using margin: auto is another
+    way to center html elements*********/
+/*****margin: 0 auto is a shorthand of the above*****/
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px;
+}
+
+p {
+  line-height: 2;
+
+}
+
+.buttonClass {
+  font-size:20px;
+  font-family: 'Merriweather', serif;
+  width:159px;
+  height:57px;
+  border-width:2px;
+  color:#ffffff;
+  border-color:#057fd0;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow: 0 1px 0 0 #f0f7fa;
+  text-shadow: 0 -1px 0 #5b6178;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  background:linear-gradient(#33bdef, #019ad2);
+  line-height: 6;
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#019ad2, #33bdef);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#408c99, #599bb3);
+}
+
+.contact-message {
+                  width: 40%;
+                  margin: 40px auto 40px;
+}
+
+
+.middle-container {
+                  padding: 100px 0;
+}
+
+
+.headshot-image {
+                 width: 15%;
+}
+
+.intro {
+      width: 30%;
+      margin: auto;
+
+}
+
+.footer-link {
+              color: #11999E;
+              margin-top: 50px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+
+}
+
+/******making the position relative here
+               sets the top container to the parent of the elements inside,
+               in this case, the clouds and header, so they are now positioned
+               relative to the parent top container (also pink color
+               from before was FFE3FE)*****/
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.name-trademark {
+                color: #EAF6F6;
+}
+
+.skill-row {
+            width: 50%;
+            margin: 100px auto 100px auto;
+            text-align: left;
+
+
+}
+
+
+.Toppin-trademark {
+                  color: #EAF6F6;
+                  font-size: 0.75rem;
+                  padding: 20px 0;
+}
+
+
+.computer-image {
+              width: 25%;
+              float: left;
+              margin-right: 30px;
+}
+
+.japanese-image {
+                width: 25%;
+                float: right;
+                margin-left: 30px;
+}
+
+/**** the 25% is 25% of the skill row, which is 50% of the total width of the page****/
